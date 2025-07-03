@@ -5,40 +5,40 @@
 int main()
 {
   // scanf
-  //  int num1;
-  //  float num2;
+   int num1;
+   float num2;
 
-  // printf("Enter two numbers: ");
-  // scanf("%d %f", &num1, &num2);
+  printf("Enter two numbers: ");
+  scanf("%d %f", &num1, &num2);
 
-  // printf("You entered an integer: %d and a floating-point number: %6.2f\n", num1, num2);
+  printf("You entered an integer: %d and a floating-point number: %6.2f\n", num1, num2);
 
   // getchar();
-  //  char ch;
+   char ch;
 
-  // printf("Enter a character: ");
-  // ch = getchar();
+  printf("Enter a character: ");
+  ch = getchar();
 
-  // puts("You entered: ");
-  // putchar(ch);
+  puts("You entered: ");
+  putchar(ch);
 
-  // printf("\nYou entered character: %c\n", ch);
+  printf("\nYou entered character: %c\n", ch);
 
   // Character sequence
-  //  char ch;
-  //   char word[10];
+   char ch;
+    char word[10];
 
-  //  int i = 0;
-  //  printf("Enter characters. End by pressing the Enter key: ");
+   int i = 0;
+   printf("Enter characters. End by pressing the Enter key: ");
 
-  //  while(1){
-  //     ch = getchar();
-  //     word[i] = ch;
-  //     if (ch == '\n')
-  //        break;
-  //     i++;
-  //  }
-  //  printf("\nYou entered the word: %s", word);
+   while(1){
+      ch = getchar();
+      word[i] = ch;
+      if (ch == '\n')
+         break;
+      i++;
+   }
+   printf("\nYou entered the word: %s", word);
 
   // String input using fgets()
   char name[20];
