@@ -25,16 +25,16 @@ int main()
   printf("\nYou entered character: %c\n", ch);
 
   // Character sequence
-   char ch;
+   char chr;
     char word[10];
 
    int i = 0;
    printf("Enter characters. End by pressing the Enter key: ");
 
    while(1){
-      ch = getchar();
-      word[i] = ch;
-      if (ch == '\n')
+      chr = getchar();
+      word[i] = chr;
+      if (chr == '\n')
          break;
       i++;
    }
@@ -44,7 +44,7 @@ int main()
   char name[20];
 
   printf("Enter your name: ");
-  fgets(name, sizeof(name), stdin);
+  fgets(name, sizeof(name), stdin); // All the characters till you press Enter are stored in the variable.
 
   // Remove trailing newline character if present
   size_t len = strlen(name);
